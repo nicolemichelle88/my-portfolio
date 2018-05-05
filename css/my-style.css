@@ -1,0 +1,350 @@
+    /*navbar stylings*/
+
+    .stego {
+        height: 60px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .navbar {
+        background-color: grey;
+    }
+    #my_links {
+        color: white;
+        margin-right: 25px;
+    }
+    /*end navbar stylings*/
+    /*begin home stylings*/
+
+    .home {
+        background-image: url(../img/home.jpg);
+        background-size: 100% 100%;
+        height: 800px;
+        color: white;
+        text-align: center;
+    }
+    .home h1 {
+        font-family: 'Rock Salt', cursive;
+        font-size: 40pt;
+        padding-top: 300px;
+        margin-bottom: 50px;
+    }
+    .home p {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 14pt;
+    }
+    .home_nav_img {
+        margin-top: 50px;
+        height: 25px;
+        background-repeat: no-repeat;
+    }
+    @media (max-width: 767px) {
+        .home {
+            background-image: url(../img/phone_home.png);
+            background-size: cover;
+            height: 700px;
+        }
+        .home h1 {
+            padding-top: 200px;
+        }
+        .home_nav_img {
+            margin-top: 100px;
+        }
+    }
+    /*end home stylings*/
+    /*begin about me stylings*/
+
+    .about_me {
+        background-image: url(../img/background1.png);
+        height: 500px;
+        color: white;
+        text-align: center;
+        font-family: 'Rock Salt', cursive;
+    }
+    .my_h2 {
+        margin-bottom: 50px;
+        font-family: 'Rock Salt', cursive;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .my_p {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 16pt;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    @media (max-width:400px){
+      .my_p {
+        font-size: 14pt;
+      }
+    }
+
+    .resume {
+      margin-top:100px;
+      padding:10px;
+      border-radius: 8px;
+      background-color: #66FFB3;
+      border:none;
+    }
+    .resume a {
+      color:#404040;
+    }
+    /*.bio_icon {
+        height: 200px;
+        margin-top: 50px;
+        border: 5px solid;
+        border-color: #996600;
+        border-radius: 50%;
+    }
+    @media (max-width: 767px) {
+      .bio_icon {
+        margin-top:50%;
+      }
+    }
+    #wrapper .info {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .info > li {
+        list-style: none;
+    }
+    .info a {
+        color: white;
+    }*/
+
+    /*end about me stylings*/
+    /*begin developer stylings*/
+
+    .developer {
+        background-color: #abc9d2;
+        height:1200px;
+    }
+    .developer h4 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      margin-top:50px;
+      font-size: 16pt;
+    }
+    #project {
+        height: 200px;
+        width: 50%;
+        margin-bottom: 75px;
+        border: 5px solid dimgrey;
+    }
+
+
+    .my_code {
+      font-size: 14pt;
+    }
+
+    .educator li {
+      margin-bottom: 10px;
+    }
+    #educator {
+      height:100rem;
+    }
+
+    #educator p {
+      font-size: 12pt;
+    }
+    #educator li {
+      list-style: none;
+    }
+.smallicon:hover {
+  opacity: 0.3;
+}
+
+/*end developer stylings*/
+    /*begin parallax one stylings*/
+
+    .parallax-window {
+        min-height: 500px;
+        background: transparent;
+    }
+    /*end parallax one stylings*/
+    /*begin educator stylings*/
+
+    .educator {
+        background-image: url(../img/upfeathers.png);
+        height: 800px;
+        color:#996600
+    }
+    .educator a {
+      color: #996600;
+    }
+
+    .educator img {
+        height: 150px;
+        margin-top: 50px;
+    }
+    .dev_icon {
+      height: 200px;
+      margin-top: 50px;
+      border: 5px solid;
+      border-color: #996600;
+      border-radius: ;
+    }
+    /*end educator stylings*/
+    /*begin maker stylings*/
+
+    /*.maker {
+        background-image: url(../img/pink_rice.png);
+        height: 800px;
+    }
+    .awesome {
+        height: 300px;
+        margin-top: 100px;
+    }*/
+    /*end maker stylings*/
+    /*begin contact stylings*/
+
+    .contact {
+        background-image: url(../img/background1.png);
+        color: white;
+        height: 900px;
+    }
+    h3 {
+        font-family: 'Rock Salt', cursive;
+        margin-top: 100px;
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 16pt;
+        margin-bottom: 25px;
+    }
+    .my_php {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 14pt;
+        margin-left:
+    }
+    .my_input {
+        margin-bottom: 20px;
+    }
+    .my_email {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    input {
+        color: black;
+    }
+    textarea {
+        color: black;
+    }
+    .my_button {
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 75px;
+    }
+    .social {
+        height: 200px;
+    }
+    .sm_icon {
+        padding: 10px;
+    }
+    #socialmedia a {
+      text-decoration: none;
+      color:white;
+    }
+
+    /*end contact stylings*/
+    /*tablet and phone stylings*/
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        #wrapper .info {
+            visibility: visible;
+        }
+        .about_me {
+            height: 950px;
+        }
+        #developer {
+            height: 1400px;
+        }
+
+        .my_p {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #developer  p {
+          margin-bottom:50px;
+        }
+        #my_parallax {
+            display: none;
+        }
+        #smallicon {
+            height: 250px;
+        }
+
+        #project {
+
+        }
+    }
+    @media all and (max-width: 767px) {
+        .about_me {
+            height: 2000px;
+        }
+        #wrapper .info {
+            visibility: visible;
+        }
+        #developer {
+            height:325rem;
+        }
+        .developer p {
+            margin-bottom: 5vw;
+        }
+
+        #my_parallax {
+            display: none;
+        }
+        .my_p {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        #educator {
+            height: 1500px;
+        }
+        #maker .awesome {
+            height: 200px;
+        }
+        #smallicons {
+            height: 100px;
+        }
+
+        .smallicon #project{
+            height:45vw;
+            width:75%;
+            margin-bottom: 50px;
+
+        }
+
+        #desktoponly {
+            display: none;
+        }
+    }
+@media all and (min-width:650px) and (max-width:700px) {
+  #developer {
+    height: 300rem;
+  }
+}
+@media all and (min-width:575px) and (max-width:649px) {
+  #developer {
+    height: 275rem;
+  }
+}
+@media all and (min-width:501px) and (max-width:574px) {
+  #developer {
+    height: 250rem;
+  }
+}
+@media all and (min-width:420px) and (max-width:500px) {
+  #developer {
+    height: 225rem;
+  }
+}
+    @media all and (max-width:419px) {
+      #developer {
+        height: 190rem;
+      }
+      #educator {
+        height: 160rem;
+      }
+    }
