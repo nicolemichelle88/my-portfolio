@@ -60,6 +60,7 @@
         color: white;
         text-align: center;
         font-family: 'Rock Salt', cursive;
+        height: 60vh;
     }
     .my_h2 {
         margin-bottom: 50px;
@@ -253,9 +254,7 @@
         #wrapper .info {
             visibility: visible;
         }
-        .about_me {
-            height: 950px;
-        }
+
         #developer {
             height: 1400px;
         }
@@ -279,9 +278,7 @@
         }
     }
     @media all and (max-width: 767px) {
-        .about_me {
-            height: 2000px;
-        }
+
         #wrapper .info {
             visibility: visible;
         }
@@ -315,6 +312,9 @@
             margin-bottom: 50px;
 
         }
+        #about_me {
+          height: 60vh;
+        }
 
         #desktoponly {
             display: none;
@@ -324,21 +324,26 @@
   #developer {
     height: 300rem;
   }
+
 }
 @media all and (min-width:575px) and (max-width:649px) {
   #developer {
     height: 275rem;
   }
+
 }
 @media all and (min-width:501px) and (max-width:574px) {
   #developer {
     height: 250rem;
   }
+
 }
 @media all and (min-width:420px) and (max-width:500px) {
   #developer {
     height: 225rem;
   }
+
+
 }
     @media all and (max-width:419px) {
       #developer {
@@ -347,4 +352,5 @@
       #educator {
         height: 160rem;
       }
+
     }
